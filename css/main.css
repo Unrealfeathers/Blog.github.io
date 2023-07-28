@@ -6,8 +6,8 @@
   --blockquote-color: #666;
   --link-color: #555;
   --link-hover-color: #222;
-  --brand-color: #fff;
-  --brand-hover-color: #fff;
+  --brand-color: #000;
+  --brand-hover-color: #999;
   --table-row-odd-bg-color: #f9f9f9;
   --table-row-hover-bg-color: #f5f5f5;
   --menu-item-bg-color: #f5f5f5;
@@ -989,7 +989,7 @@ pre code {
   margin: 0;
 }
 .site-subtitle {
-  color: #ddd;
+  color: #000;
   font-size: 0.8125em;
   margin: 10px 10px 0;
 }
@@ -2320,7 +2320,7 @@ header.header {
   }
 }
 .site-brand-container {
-  background: var(--theme-color);
+  background: #fff;
 }
 @media (max-width: 991px) {
   .site-nav-on .site-brand-container {
@@ -2338,10 +2338,8 @@ header.header {
     justify-content: center;
   }
 }
-.site-nav-toggle .toggle,
-.site-nav-right .toggle {
-  color: #fff;
-}
+.site-nav-toggle .toggle #white;,
+.site-nav-right .toggle #white;,
 .site-nav-toggle .toggle .toggle-line,
 .site-nav-right .toggle .toggle-line {
   background: #fff;
