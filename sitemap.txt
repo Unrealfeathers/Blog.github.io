@@ -1,5 +1,5 @@
-https://feathers.cc/categories/
 https://feathers.cc/about/
+https://feathers.cc/categories/
 https://feathers.cc/tags/
 https://feathers.cc/hello-world/
 https://feathers.cc/
