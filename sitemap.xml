@@ -110,20 +110,6 @@
 
   
   <url>
-    <loc>https://feathers.cc/tags/GitHubPages/</loc>
-    <lastmod>2023-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://feathers.cc/tags/Web/</loc>
-    <lastmod>2023-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://feathers.cc/tags/JavaScript/</loc>
     <lastmod>2023-07-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -132,6 +118,20 @@
   
   <url>
     <loc>https://feathers.cc/tags/Node-js/</loc>
+    <lastmod>2023-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://feathers.cc/tags/GitHubPages/</loc>
+    <lastmod>2023-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://feathers.cc/tags/Web/</loc>
     <lastmod>2023-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -154,6 +154,13 @@
 
   
   <url>
+    <loc>https://feathers.cc/categories/Environment/</loc>
+    <lastmod>2023-07-31</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://feathers.cc/categories/GitHub/</loc>
     <lastmod>2023-07-31</lastmod>
     <changefreq>weekly</changefreq>
@@ -162,13 +169,6 @@
   
   <url>
     <loc>https://feathers.cc/categories/Hexo/</loc>
-    <lastmod>2023-07-31</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://feathers.cc/categories/Environment/</loc>
     <lastmod>2023-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
