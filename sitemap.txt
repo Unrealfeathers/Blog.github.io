@@ -1,3 +1,5 @@
+https://feathers.cc/Hexo/Hexo-Next%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9%E8%83%8C%E6%99%AF%E5%A3%81%E7%BA%B8%E5%92%8C%E8%83%8C%E6%99%AF%E9%80%8F%E6%98%8E%E5%8C%96/
+https://feathers.cc/Hexo/%E4%BD%BF%E7%94%A8Cloudflare%E5%8A%A0%E9%80%9FGitHubPages/
 https://feathers.cc/Hexo/Hexo%E4%BD%BF%E7%94%A8%E4%B8%AD%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98%E5%8F%8A%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95/
 https://feathers.cc/Hexo/%E4%BD%BF%E7%94%A8GitHubPages-Hexo%E5%88%9B%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/
 https://feathers.cc/Hexo/GitHubPages/
@@ -13,7 +15,9 @@ https://feathers.cc/
 https://feathers.cc/tags/JavaScript/
 https://feathers.cc/tags/Node-js/
 https://feathers.cc/tags/GitHubPages/
+https://feathers.cc/tags/Hexo/
 https://feathers.cc/tags/Web/
+https://feathers.cc/tags/Cloudflare/
 https://feathers.cc/tags/Git/
 https://feathers.cc/tags/GitHub/
 https://feathers.cc/categories/Environment/
