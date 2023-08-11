@@ -2507,7 +2507,8 @@ body {
   background-image: url("/images/background-5.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center center;
 }
 .main-inner {
   background: #fff;
