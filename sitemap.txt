@@ -22,7 +22,7 @@ https://feathers.cc/tags/Hexo/
 https://feathers.cc/tags/Web/
 https://feathers.cc/tags/Cloudflare/
 https://feathers.cc/categories/Environment/
-https://feathers.cc/categories/Tool/
 https://feathers.cc/categories/Git/
+https://feathers.cc/categories/Tool/
 https://feathers.cc/categories/GitHub/
 https://feathers.cc/categories/Hexo/
