@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-2/</loc>
+    <loc>https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-4/</loc>
     
     <lastmod>2023-08-13</lastmod>
     
@@ -11,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-1/</loc>
+    <loc>https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-3/</loc>
     
     <lastmod>2023-08-13</lastmod>
     
@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/</loc>
+    <loc>https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E8%AF%BE%E7%A8%8B%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/</loc>
     
     <lastmod>2023-08-13</lastmod>
     
@@ -29,7 +29,25 @@
   </url>
   
   <url>
-    <loc>https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E8%AF%BE%E7%A8%8B%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/</loc>
+    <loc>https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0%E8%B5%84%E6%96%99/</loc>
+    
+    <lastmod>2023-08-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-2/</loc>
+    
+    <lastmod>2023-08-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-1/</loc>
     
     <lastmod>2023-08-13</lastmod>
     
@@ -227,7 +245,7 @@
   </url>
   
   <url>
-    <loc>https://feathers.cc/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://feathers.cc/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2023-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -241,14 +259,14 @@
   </url>
   
   <url>
-    <loc>https://feathers.cc/tags/%E5%AE%9E%E9%AA%8C%E8%AF%BE%E7%A8%8B/</loc>
+    <loc>https://feathers.cc/tags/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</loc>
     <lastmod>2023-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://feathers.cc/tags/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</loc>
+    <loc>https://feathers.cc/tags/%E5%AE%9E%E9%AA%8C%E8%AF%BE%E7%A8%8B/</loc>
     <lastmod>2023-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -292,7 +310,7 @@
   </url>
   
   <url>
-    <loc>https://feathers.cc/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://feathers.cc/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2023-08-13</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

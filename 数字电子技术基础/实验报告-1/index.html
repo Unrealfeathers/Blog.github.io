@@ -21,37 +21,35 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"feathers.cc","root":"/","images":"/images","scheme":"Pisces","darkmode":false,"version":"8.17.1","exturl":true,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="一、实验目的 了解时序电路的设计方法和步骤，掌握计数器的工作原理，研究自启动问题    掌握不同类型计数器设计、调试方法，进一步掌握数字示波器测量多路波形方法     双 J-K 负沿触发器的工作特性">
+    <meta name="description" content="学院：人工智能与数据科学学院学级：2021级专业：物联网工程  一、实验目的 学会用集成TTL门构成组合逻辑电路。 通过实验手段实现所设计的电路。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="河北工业大学-数字电路基础-实验报告-2">
-<meta property="og:url" content="https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-2/">
+<meta property="og:title" content="河北工业大学-数字电子技术基础-实验报告-1-组合逻辑电路设计">
+<meta property="og:url" content="https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-1/">
 <meta property="og:site_name" content="Unrealfeathers&#39;Blog">
-<meta property="og:description" content="一、实验目的 了解时序电路的设计方法和步骤，掌握计数器的工作原理，研究自启动问题    掌握不同类型计数器设计、调试方法，进一步掌握数字示波器测量多路波形方法     双 J-K 负沿触发器的工作特性">
+<meta property="og:description" content="学院：人工智能与数据科学学院学级：2021级专业：物联网工程  一、实验目的 学会用集成TTL门构成组合逻辑电路。 通过实验手段实现所设计的电路。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://s1.ax1x.com/2023/08/13/pPKFM80.png">
-<meta property="og:image" content="https://s1.ax1x.com/2023/08/13/pPKFGb4.png">
-<meta property="og:image" content="https://s1.ax1x.com/2023/08/13/pPKFta9.png">
-<meta property="og:image" content="https://s1.ax1x.com/2023/08/13/pPKFN5R.png">
-<meta property="og:image" content="https://s1.ax1x.com/2023/08/13/pPKFYVJ.png">
-<meta property="og:image" content="https://s1.ax1x.com/2023/08/13/pPKFaP1.png">
+<meta property="og:image" content="https://s1.ax1x.com/2023/08/13/pPKFQ2V.png">
+<meta property="og:image" content="https://s1.ax1x.com/2023/08/13/pPKF8rF.png">
+<meta property="og:image" content="https://s1.ax1x.com/2023/08/13/pPKFlvT.png">
+<meta property="og:image" content="https://s1.ax1x.com/2023/08/13/pPKF3KU.png">
 <meta property="article:published_time" content="2023-08-09T16:00:00.000Z">
-<meta property="article:modified_time" content="2023-08-13T09:27:34.663Z">
+<meta property="article:modified_time" content="2023-08-13T09:52:06.587Z">
 <meta property="article:author" content="Unrealfeathers">
 <meta property="article:tag" content="河北工业大学">
-<meta property="article:tag" content="数字电路基础">
+<meta property="article:tag" content="数字电子技术基础">
 <meta property="article:tag" content="实验报告">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://s1.ax1x.com/2023/08/13/pPKFM80.png">
+<meta name="twitter:image" content="https://s1.ax1x.com/2023/08/13/pPKFQ2V.png">
 
 
-<link rel="canonical" href="https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-2/">
+<link rel="canonical" href="https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-1/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-2/","path":"数字电路基础/实验报告-2/","title":"河北工业大学-数字电路基础-实验报告-2"}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-1/","path":"数字电子技术基础/实验报告-1/","title":"河北工业大学-数字电子技术基础-实验报告-1-组合逻辑电路设计"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>河北工业大学-数字电路基础-实验报告-2 | Unrealfeathers'Blog</title>
+<title>河北工业大学-数字电子技术基础-实验报告-1-组合逻辑电路设计 | Unrealfeathers'Blog</title>
   
 
 
@@ -124,7 +122,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%AE%9E%E9%AA%8C%E7%9B%AE%E7%9A%84"><span class="nav-number">1.</span> <span class="nav-text">一、实验目的</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E5%AE%9E%E9%AA%8C%E5%86%85%E5%AE%B9"><span class="nav-number">2.</span> <span class="nav-text">二、实验内容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E5%AE%9E%E9%AA%8C%E8%BF%87%E7%A8%8B"><span class="nav-number">3.</span> <span class="nav-text">三、实验过程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E5%AE%9E%E9%AA%8C%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E6%80%9D%E8%80%83"><span class="nav-number">4.</span> <span class="nav-text">四、实验的分析与思考</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%80%E3%80%81%E5%AE%9E%E9%AA%8C%E7%9B%AE%E7%9A%84"><span class="nav-number">1.</span> <span class="nav-text">一、实验目的</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BA%8C%E3%80%81%E5%AE%9E%E9%AA%8C%E5%86%85%E5%AE%B9"><span class="nav-number">2.</span> <span class="nav-text">二、实验内容</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%B8%89%E3%80%81%E5%AE%9E%E9%AA%8C%E8%BF%87%E7%A8%8B"><span class="nav-number">3.</span> <span class="nav-text">三、实验过程</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9B%9B%E3%80%81%E5%AE%9E%E9%AA%8C%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E6%80%9D%E8%80%83"><span class="nav-number">4.</span> <span class="nav-text">四、实验的分析与思考</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%99%84%E4%BB%B6"><span class="nav-number">5.</span> <span class="nav-text">附件</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -139,7 +137,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">14</span>
+          <span class="site-state-item-count">16</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -185,7 +183,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-2/">
+    <link itemprop="mainEntityOfPage" href="https://feathers.cc/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/uploads/avatar.jpg">
@@ -198,12 +196,12 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="河北工业大学-数字电路基础-实验报告-2 | Unrealfeathers'Blog">
+      <meta itemprop="name" content="河北工业大学-数字电子技术基础-实验报告-1-组合逻辑电路设计 | Unrealfeathers'Blog">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          河北工业大学-数字电路基础-实验报告-2
+          河北工业大学-数字电子技术基础-实验报告-1-组合逻辑电路设计
         </h1>
 
         <div class="post-meta-container">
@@ -221,7 +219,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">更新于</span>
-      <time title="修改时间：2023-08-13 17:27:34" itemprop="dateModified" datetime="2023-08-13T17:27:34+08:00">2023-08-13</time>
+      <time title="修改时间：2023-08-13 17:52:06" itemprop="dateModified" datetime="2023-08-13T17:52:06+08:00">2023-08-13</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -229,7 +227,7 @@
       </span>
       <span class="post-meta-item-text">分类于</span>
         <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index"><span itemprop="name">数字电路基础</span></a>
+          <a href="/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/" itemprop="url" rel="index"><span itemprop="name">数字电子技术基础</span></a>
         </span>
     </span>
 
@@ -242,35 +240,28 @@
     
     
     
-    <div class="post-body" itemprop="articleBody"><h2 id="一、实验目的"><a href="#一、实验目的" class="headerlink" title="一、实验目的"></a>一、实验目的</h2><ol>
-<li>了解时序电路的设计方法和步骤，掌握计数器的工作原理，研究自启动问题   </li>
-<li>掌握不同类型计数器设计、调试方法，进一步掌握数字示波器测量多路波形方法    </li>
-<li>双 J-K 负沿触发器的工作特性  <span id="more"></span></li>
+    <div class="post-body" itemprop="articleBody"><blockquote>
+<p>学院：人工智能与数据科学学院<br>学级：2021级<br>专业：物联网工程</p>
+</blockquote>
+<h2 id="一、实验目的"><a href="#一、实验目的" class="headerlink" title="一、实验目的"></a>一、实验目的</h2><ol>
+<li>学会用集成TTL门构成组合逻辑电路。</li>
+<li>通过实验手段实现所设计的电路。<span id="more"></span></li>
 </ol>
 <h2 id="二、实验内容"><a href="#二、实验内容" class="headerlink" title="二、实验内容"></a>二、实验内容</h2><ol>
-<li>用双 J-K 负沿触发器设计一个可控五进制计数器，要求：   <ol>
-<li>当控制端 A&#x3D;1 时，实现下述状态：<br>Q0-Q1-Q2 000-&gt;100-&gt;110-&gt;111-&gt;011-&gt;000     </li>
-<li>当控制端 A&#x3D;0 时，实现下述状态：<br>Q0-Q1-Q2 000-&gt;100-&gt;110-&gt;010-&gt;011-&gt;000<br>测试并记录时钟 CLK、 Q0、 Q1、 Q2的波形。</li>
-</ol>
-</li>
-<li>测试 J-K 触发器的外特性, 并记录波形 2. 用 D 触发器设计一个二—十进制减法计数器，输出信号中除了 4 位用来显示差之外，还需要包含一位最高位的借位信号。</li>
+<li>设计全加器：用双四选一数据选择器74LS153与门电路结合设计加法器,<br>设A为被加数,B为加数,Cn-1为上位进位输入，F为A+B的结果，Cn为本位进位输出。</li>
+<li>设计一个能完成如下功能的发电机组供电控制电路：<br>某工厂有四台用电设备：A、B、C、D，其中：<br>A设备用电 5KW<br>B设备用电 10KW<br>C设备用电 12KW<br>D设备用电 18KW<br>使用过程中不允许A、B两台用电设备同时使用。<br>现有供电机组三台：<br>x容量 10KW<br>y容量 15KW<br>z容量 20KW<br>为了节约能源，要求按用电状况合理启动供电机组，设计出供电机组控制逻辑（1表示供电和用电，0表示不供电不用电）。用与非与非式实现。</li>
 </ol>
 <h2 id="三、实验过程"><a href="#三、实验过程" class="headerlink" title="三、实验过程"></a>三、实验过程</h2><ol>
-<li><p>用双 J-K 负沿触发器设计一个可控五进制计数器    </p>
-<ol>
-<li><p>画出原始状态图：  </p>
+<li>设计全加器：<ol>
+<li><p>根据题目要求，画出真值表：</p>
 <table>
 <thead>
 <tr>
-<th>Q2n</th>
-<th>Q1n</th>
-<th>Q0n</th>
-<th>A&#x3D;0<br/>Q2n</th>
-<th>A&#x3D;0<br/>Q1n</th>
-<th>A&#x3D;0<br/>Q0n</th>
-<th>A&#x3D;1<br/>Q2n</th>
-<th>A&#x3D;1<br/>Q1n</th>
-<th>A&#x3D;1<br/>Q0n</th>
+<th>A</th>
+<th>B</th>
+<th>C(N-1)</th>
+<th>F</th>
+<th>Cn</th>
 </tr>
 </thead>
 <tbody><tr>
@@ -279,40 +270,10 @@
 <td>0</td>
 <td>0</td>
 <td>0</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>1</td>
 </tr>
 <tr>
 <td>0</td>
 <td>0</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>1</td>
-</tr>
-<tr>
-<td>0</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>0</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-</tr>
-<tr>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-<td>X</td>
-<td>X</td>
-<td>X</td>
 <td>1</td>
 <td>1</td>
 <td>0</td>
@@ -322,52 +283,69 @@
 <td>1</td>
 <td>0</td>
 <td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
 <td>1</td>
 <td>0</td>
-<td>X</td>
-<td>X</td>
-<td>X</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
 </tr>
 <tr>
 <td>1</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
 </tr>
 </tbody></table>
 </li>
-<li><p>使用卡诺图化简求得激励函数和激励方程:<br><img src="https://s1.ax1x.com/2023/08/13/pPKFM80.png" alt="图1-1"></p>
+<li><p>使用卡诺图得到表达式</p>
 </li>
-<li><p>画出逻辑电路图：<br><img src="https://s1.ax1x.com/2023/08/13/pPKFGb4.png" alt="图1-2"></p>
+<li><p>根据表达式画出电路图并进行仿真，共使用了74ls153d和74ls04d各一个<br><img src="https://s1.ax1x.com/2023/08/13/pPKFQ2V.png" alt="图1-1"></p>
 </li>
-<li><p>使用实验箱连接电路，进行实验：<br><img src="https://s1.ax1x.com/2023/08/13/pPKFta9.png" alt="图1-3"></p>
+<li><p>使用实验箱连接电路，进行实验<br><img src="https://s1.ax1x.com/2023/08/13/pPKF8rF.png" alt="图1-2"></p>
 </li>
-<li><p>根据真值表进行验证，验证通过，老师检查通过，试验结束  </p>
+<li><p>根据真值表进行验证，验证通过，老师检查通过，试验结束</p>
 </li>
 <li><p>收拾实验箱，线材和芯片放归原处</p>
 </li>
 </ol>
 </li>
-<li><p>用 D 触发器设计一个二—-十进制减法计数器</p>
-<ol>
-<li><p>画出原始状态图：</p>
+<li>设计发电机组供电控制电路：<ol>
+<li><p>根据题目要求，画出真值表：</p>
 <table>
 <thead>
 <tr>
-<th>Q1</th>
-<th>Q2</th>
-<th>Q3</th>
-<th>Q4</th>
-<th>Q1</th>
-<th>Q2</th>
-<th>Q3</th>
-<th>Q4</th>
-<th>A</th>
+<th>D&#x2F;18kw</th>
+<th>C&#x2F;12kw</th>
+<th>B&#x2F;10kw</th>
+<th>A&#x2F;5kw</th>
+<th>X&#x2F;10kw</th>
+<th>Y&#x2F;15kw</th>
+<th>Z&#x2F;20kw</th>
 </tr>
 </thead>
 <tbody><tr>
@@ -375,39 +353,13 @@
 <td>0</td>
 <td>0</td>
 <td>0</td>
-<td>1</td>
 <td>0</td>
 <td>0</td>
-<td>1</td>
-<td>0</td>
-</tr>
-<tr>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>1</td>
-</tr>
-<tr>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
 <td>0</td>
 </tr>
 <tr>
 <td>0</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
+<td>0</td>
 <td>0</td>
 <td>1</td>
 <td>1</td>
@@ -416,11 +368,27 @@
 </tr>
 <tr>
 <td>0</td>
+<td>0</td>
 <td>1</td>
+<td>0</td>
 <td>1</td>
 <td>0</td>
 <td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>0</td>
 <td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
 <td>0</td>
 <td>1</td>
 <td>0</td>
@@ -431,64 +399,108 @@
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>0</td>
+<td>1</td>
 <td>1</td>
 <td>0</td>
-<td>0</td>
+<td>1</td>
+<td>1</td>
 <td>0</td>
 </tr>
 <tr>
 <td>0</td>
 <td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
 <td>0</td>
+<td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>1</td>
 <td>1</td>
 <td>1</td>
 <td>0</td>
 </tr>
 <tr>
-<td>0</td>
-<td>0</td>
 <td>1</td>
-<td>1</td>
-<td>0</td>
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>1</td>
 <td>0</td>
+<td>1</td>
 </tr>
 <tr>
-<td>0</td>
-<td>0</td>
 <td>1</td>
 <td>0</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
+<td>1</td>
 <td>1</td>
 <td>0</td>
+<td>1</td>
+<td>1</td>
 </tr>
 <tr>
-<td>0</td>
+<td>1</td>
+<td>1</td>
 <td>0</td>
 <td>0</td>
 <td>1</td>
 <td>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
 <td>0</td>
+<td>1</td>
 <td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
 <td>0</td>
-<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
 </tr>
 </tbody></table>
 </li>
-<li><p>使用卡诺图化简求得激励函数和激励方程:<br> <img src="https://s1.ax1x.com/2023/08/13/pPKFN5R.png" alt="图2-1"></p>
+<li><p>使用卡诺图得到表达式</p>
 </li>
-<li><p>画出逻辑电路图：<br> <img src="https://s1.ax1x.com/2023/08/13/pPKFYVJ.png" alt="图2-2"></p>
+<li><p>根据表达式画出电路图并进行仿真<br><img src="https://s1.ax1x.com/2023/08/13/pPKFlvT.png" alt="图2-1"></p>
 </li>
-<li><p>使用实验箱连接电路，进行实验：<br> <img src="https://s1.ax1x.com/2023/08/13/pPKFaP1.png" alt="图2-3"></p>
+<li><p>使用实验箱连接电路，进行实验<br><img src="https://s1.ax1x.com/2023/08/13/pPKF3KU.png" alt="图2-2"></p>
 </li>
-<li><p>根据真值表进行验证，验证通过，老师检查通过，试验结束  </p>
+<li><p>根据真值表进行验证，验证通过，老师检查通过，试验结束</p>
 </li>
 <li><p>收拾实验箱，线材和芯片放归原处</p>
 </li>
@@ -496,9 +508,12 @@
 </li>
 </ol>
 <h2 id="四、实验的分析与思考"><a href="#四、实验的分析与思考" class="headerlink" title="四、实验的分析与思考"></a>四、实验的分析与思考</h2><ol>
-<li>LED输出不符合真值表，使用逻辑笔反查，发现是一根线接触不良。  </li>
-<li>LED输出不符合真值表，使用逻辑笔反查，发现反相器芯片的一个非门疑似击穿。</li>
+<li>问题：<br>连接电线时，很容易记不清那根连了那根线没连。解决办法：复制原文件，在新文件中编辑，连接好一根线，就把对应的线在电路图中删掉。</li>
+<li>使用卡诺图和仿真软件中示波器测试后，发现电路并无竞争冒险现象。</li>
 </ol>
+<h2 id="附件"><a href="#附件" class="headerlink" title="附件"></a>附件</h2><p>本实验用到的仿真文件及真值表请于以下文章中获取：  </p>
+<a href="/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E8%AF%BE%E7%A8%8B%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/" title="河北工业大学-数字电子技术基础-实验课程相关资料">河北工业大学-数字电子技术基础-实验课程相关资料</a>  
+<p><strong>注：在线下实验中，需要使用实验箱进行相关操作。我们可以下载仿真文件，在实验箱上连好一根线，就在仿真软件中删掉一根线。这可以有效降低失误概率。</strong></p>
 
     </div>
 
@@ -527,7 +542,7 @@
 
           <div class="post-tags">
               <a href="/tags/%E6%B2%B3%E5%8C%97%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/" rel="tag"># 河北工业大学</a>
-              <a href="/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/" rel="tag"># 数字电路基础</a>
+              <a href="/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/" rel="tag"># 数字电子技术基础</a>
               <a href="/tags/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/" rel="tag"># 实验报告</a>
           </div>
 
@@ -535,14 +550,11 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E8%AF%BE%E7%A8%8B%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/" rel="prev" title="河北工业大学-数字电路基础-实验课程相关资料">
-                  <i class="fa fa-chevron-left"></i> 河北工业大学-数字电路基础-实验课程相关资料
+                <a href="/%E6%95%B0%E5%AD%97%E7%94%B5%E5%AD%90%E6%8A%80%E6%9C%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-2/" rel="prev" title="河北工业大学-数字电子技术基础-实验报告-2-计数器">
+                  <i class="fa fa-chevron-left"></i> 河北工业大学-数字电子技术基础-实验报告-2-计数器
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A-1/" rel="next" title="河北工业大学-数字电路基础-实验报告-1">
-                  河北工业大学-数字电路基础-实验报告-1 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
     </footer>
