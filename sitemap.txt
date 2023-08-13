@@ -16,6 +16,8 @@ https://feathers.cc/tags/
 https://feathers.cc/categories/
 https://feathers.cc/about/
 https://feathers.cc/
+https://feathers.cc/tags/Git/
+https://feathers.cc/tags/GitHub/
 https://feathers.cc/tags/JavaScript/
 https://feathers.cc/tags/Node-js/
 https://feathers.cc/tags/%E6%B2%B3%E5%8C%97%E5%B7%A5%E4%B8%9A%E5%A4%A7%E5%AD%A6/
@@ -23,15 +25,13 @@ https://feathers.cc/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/
 https://feathers.cc/tags/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A/
 https://feathers.cc/tags/%E5%AE%9E%E9%AA%8C%E8%AF%BE%E7%A8%8B/
 https://feathers.cc/tags/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/
-https://feathers.cc/tags/Git/
-https://feathers.cc/tags/GitHub/
 https://feathers.cc/tags/Hexo/
-https://feathers.cc/tags/GitHubPages/
 https://feathers.cc/tags/Web/
+https://feathers.cc/tags/GitHubPages/
 https://feathers.cc/tags/Cloudflare/
-https://feathers.cc/categories/Environment/
-https://feathers.cc/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/
 https://feathers.cc/categories/Tool/
 https://feathers.cc/categories/Git/
+https://feathers.cc/categories/Environment/
+https://feathers.cc/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF%E5%9F%BA%E7%A1%80/
 https://feathers.cc/categories/Hexo/
 https://feathers.cc/categories/GitHub/
