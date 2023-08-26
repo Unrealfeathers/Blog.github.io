@@ -250,34 +250,6 @@
   </url>
   
   <url>
-    <loc>https://feathers.cc/tags/GitHubPages/</loc>
-    <lastmod>2023-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://feathers.cc/tags/Web/</loc>
-    <lastmod>2023-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://feathers.cc/tags/Hexo/</loc>
-    <lastmod>2023-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://feathers.cc/tags/Cloudflare/</loc>
-    <lastmod>2023-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://feathers.cc/tags/Git/</loc>
     <lastmod>2023-08-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -307,6 +279,34 @@
   
   <url>
     <loc>https://feathers.cc/tags/Java%E5%85%A5%E9%97%A8/</loc>
+    <lastmod>2023-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://feathers.cc/tags/GitHubPages/</loc>
+    <lastmod>2023-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://feathers.cc/tags/Hexo/</loc>
+    <lastmod>2023-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://feathers.cc/tags/Web/</loc>
+    <lastmod>2023-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://feathers.cc/tags/Cloudflare/</loc>
     <lastmod>2023-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -357,20 +357,6 @@
   </url>
   
   <url>
-    <loc>https://feathers.cc/categories/GitHub/</loc>
-    <lastmod>2023-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://feathers.cc/categories/Hexo/</loc>
-    <lastmod>2023-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://feathers.cc/categories/Tool/</loc>
     <lastmod>2023-08-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -386,6 +372,20 @@
   
   <url>
     <loc>https://feathers.cc/categories/Java/</loc>
+    <lastmod>2023-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://feathers.cc/categories/GitHub/</loc>
+    <lastmod>2023-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://feathers.cc/categories/Hexo/</loc>
     <lastmod>2023-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
